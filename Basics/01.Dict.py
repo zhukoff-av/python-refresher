@@ -29,3 +29,23 @@ def find_average(students):
 print(find_average(students_data))
 
 # Task 2. How to get nested dict ?
+
+person = {
+    'A': 1,
+    'B': 12,
+    'C': 23,
+    'D': 34,
+    'E': {
+        'a': 'ae',
+        'b': 'ar',
+        'c': 'aa',
+        'd': 'tt',
+    }
+}
+
+print(person.get('F', {}))
+
+# enumerate
+l_list = [1, 3, 4, 6, 345, 56, 3, 4, 5, 234, 423, 23]
+
+print(enumerate(l_list))
