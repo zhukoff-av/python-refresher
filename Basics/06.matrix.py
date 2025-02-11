@@ -12,4 +12,8 @@ for i in range(len(matrix)):
         transpose_row.append(row[i])
     transpose_matrix.append(transpose_row)
 
-print(transpose_matrix)
+tr_matrix = [[row[i] for row in matrix] for i in range(len(matrix))]
+
+print(tr_matrix)
+
+# print(transpose_matrix)
